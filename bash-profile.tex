@@ -1,0 +1,8 @@
+\begin{enumerate}
+
+\item ssh into home directory of node that needs profiles (list of users)
+\item sudo chown username:group username [group for this cluster is 'Student']
+\item ssh into home directory of node with /etc/hosts information already populated
+\item sudo scp -P 810# .bashrc .bash_profile username@cloudnode#:~/
+\item sudo chown -R username:group .ssh
+\end{enumerate}
