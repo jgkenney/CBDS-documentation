@@ -1,0 +1,26 @@
+\section*{Install OpenStack}
+
+\begin{enumerate}
+\item Install DNF to your node
+
+Download DNF, type: sudo yum install epel-release -y\\
+
+Install DNF, type: sudo yum install dnf -y\\
+
+\item Install Git
+
+type: sudo dnf install git-all\\
+
+\item Download DevStack
+
+type: git clone https://opendev.org/openstack/devstack\\
+
+\item DevStack
+
+go to: cd devstack\\
+
+type: ./stack.sh\\
+
+Will be prompted to enter four passwords, use scsu12345 as a default
+
+\end{enumerate}
